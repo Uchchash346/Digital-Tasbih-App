@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/skyBlue"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Tasbih"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        />
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_margin="5dp"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#2BB50C"
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:text="Add"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:backgroundTint="@color/silver"
+        />
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonSub"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="20sp"-->
+<!--        android:backgroundTint="@color/yellow"-->
+<!--        android:text="sub" />-->
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:backgroundTint="@color/red"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="reset" />
+
+
+</LinearLayout>
